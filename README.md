@@ -1,35 +1,37 @@
 # Sentiment-Analysis-on-Tweets
 
-✅ Twitter Sentiment Analysis using R
+✅ Sentiment Analysis on Tweets using R
+
 This project involves retrieving tweets through the Twitter API and performing sentiment analysis to categorize them as positive, negative, or neutral. The approach used is based on a lexical method that relies on predefined word lists.
 
 📦 Requirements
-To run this project successfully, you’ll need:
+1. To run this project successfully, you’ll need:
 
-R (preferably version 4.0 or above)
+2. R (preferably version 4.0 or above)
 
-A Twitter Developer account with OAuth 1.0a credentials (API Key, API Secret Key, Access Token, and Access Token Secret)
+3. A Twitter Developer account with OAuth 1.0a credentials (API Key, API Secret Key, Access Token, and Access Token Secret)
 
 📚 Required R Packages
 The analysis uses several R packages for data extraction, text preprocessing, and visualization:
 
-rtweet – for Twitter API access
+1. rtweet – for Twitter API access
 
-stringr – for text manipulation
+2. stringr – for text manipulation
 
-ggplot2, reshape2, gridExtra – for visualization
+3. ggplot2, reshape2, gridExtra – for visualization
 
-tm, wordcloud – for text mining and word clouds
+4. tm, wordcloud – for text mining and word clouds
 
-plyr, dplyr – for data handling and transformation
+5. plyr, dplyr – for data handling and transformation
 
-textclean, tidytext – for enhanced text cleaning
+6. textclean, tidytext – for enhanced text cleaning
 
-httr – for resolving token and authentication issues
+7. httr – for resolving token and authentication issues
 
-sentimentr – (optional) for more nuanced sentiment analysis
+8. sentimentr – (optional) 
 
 ⚙️ How to Run the Project
+
 🔹 Single File Execution
 To quickly execute the entire sentiment analysis pipeline, use:
 
@@ -65,6 +67,7 @@ For better understanding and modular execution, the project is broken down into 
 13_wordcloud.R – Create engaging word clouds for tweet content
 
 📌 Important Notes
-Be sure to keep your Twitter API credentials private—do not upload them to version control platforms like GitHub.
 
-This is a lexical-based sentiment analysis project, which uses a word-matching strategy instead of machine learning.
+- Be sure to keep your Twitter API credentials private—do not upload them to version control platforms like GitHub.
+
+- This is a lexical-based sentiment analysis project, which uses a word-matching strategy instead of machine learning.
